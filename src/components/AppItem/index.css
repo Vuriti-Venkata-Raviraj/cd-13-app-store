@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.app-card {
+  list-style: none;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.app-img {
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.app-name {
+  color: #1e293b;
+}

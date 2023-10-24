@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Bree Serif;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 40px;
+}
+
+.search-bar {
+  background-color: transparent;
+  border: 1px solid #7b8794;
+  height: 35px;
+  width: 210px;
+  border-right: 0px;
+  margin: 0px;
+  padding-left: 10px;
+  color: #1e293b;
+  font-weight: 600;
+  outline: none;
+}
+
+.submit-btn {
+  height: 35px;
+  width: 40px;
+  background-color: transparent;
+  border: 1px solid #7b8794;
+  border-left: 0px;
+  margin-right: 5px;
+  outline: none;
+}
+
+.search-icon {
+  height: 25px;
+  width: 40px;
+  margin-top: auto;
+  margin-right: 25px;
+  padding-right: 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-items {
+  display: flex;
+  justify-content: center;
+}
+
+.app-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin: auto auto;
+}
